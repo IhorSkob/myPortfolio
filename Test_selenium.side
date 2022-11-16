@@ -1,0 +1,163 @@
+{
+  "id": "4bc97b74-2938-48d5-a646-525ff7947e99",
+  "version": "2.0",
+  "name": "Test_selenium",
+  "url": "https://rozetka.com.ua/ua/",
+  "tests": [{
+    "id": "2fe04b52-cef5-4ecb-996e-1a319da5b5bb",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "27954ce5-79e7-4794-a841-7ed87d84267f",
+    "name": "add prod to a basket (Rozetka)",
+    "commands": [{
+      "id": "7402d496-b734-4f6e-9a08-1c1d044d8bab",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67f8f28b-440e-424e-a9ce-712f94782f30",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1750x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d44ca92-9a94-4c4c-b880-31fdb0544202",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@name='search']",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7d9ca56-df17-4fd0-b087-ebf8dca8c480",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@name='search']",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "книжка кобзар"
+    }, {
+      "id": "9e5576e9-50cf-4b42-a2c6-5b7fe3e8240a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Знайти')]",
+      "targets": [
+        ["css=.button_color_green", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Знайти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d34325d-9324-4841-b976-238aa270f0e9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/shkola_9789664291924/p232771933/')]",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__picture", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/shkola_9789664291924/p232771933/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "814cc82f-cc66-4721-8066-ea5e80855574",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Купити')]",
+      "targets": [
+        ["css=.buy-button__label", "css:finder"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/ul/li/rz-product-buy-btn/app-buy-button/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b2835b1-c5f4-4ba7-918f-44dd43c806f1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[107]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13de2ba7-7107-47e3-81f3-a0202d07e8c2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Оформити замовлення')]",
+      "targets": [
+        ["linkText=Оформити замовлення", "linkText"],
+        ["css=.button_size_large", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформити замовлення')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/checkout/')]", "xpath:href"],
+        ["xpath=//rz-shopping-cart/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54f3841d-760b-4905-a54e-89724b30244d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(.,'Редагувати')]",
+      "targets": [
+        ["linkText=Редагувати", "linkText"],
+        ["name=edit", "name"],
+        ["css=.button--small", "css:finder"],
+        ["xpath=//a[contains(text(),'Редагувати')]", "xpath:link"],
+        ["xpath=//a[@name='edit']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'my.rozetka.com.ua/cart')]", "xpath:href"],
+        ["xpath=//fieldset/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Редагувати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74f368b7-cf54-419b-870a-a3cf48faba9c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@id='cartProductActions0']",
+      "targets": [
+        ["id=cartProductActions0", "id"],
+        ["css=#cartProductActions0", "css:finder"],
+        ["xpath=//button[@id='cartProductActions0']", "xpath:attributes"],
+        ["xpath=//rz-popup-menu/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5df409d-aa03-4c1a-b0c8-a11a80baf38e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Видалити')]",
+      "targets": [
+        ["css=.context-menu-actions__button", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='cartProductActions0']/ul/li/rz-trash-icon/button", "xpath:idRelative"],
+        ["xpath=//rz-trash-icon/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Видалити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "64a31cbd-09d1-4d93-bcc6-03d91e3fcb32",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2fe04b52-cef5-4ecb-996e-1a319da5b5bb"]
+  }],
+  "urls": ["https://rozetka.com.ua/ua/"],
+  "plugins": []
+}
